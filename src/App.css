@@ -21,15 +21,17 @@ border: 1px solid black;
 
 
 
-.pic , .name{
+.pic, .name {
+  /* display: inline-block; */
   display: inline-block;
+  vertical-align: top;
 }
 
-.name{
-  position: absolute;
+.name {
+  position: relative;
   margin-left: 10%;
-  font-size: 40px;
-
+  font-size: 30px;
+  display: inline-block;
 }
 
 .col1{
